@@ -1149,7 +1149,7 @@ picture{
                                          /*TABLET  landscape*/
 
 
-@media (min-width: 750px) and (max-width: 1300px) and (orientation: landscape) {
+@media (min-width: 641px) and (max-width: 1199px) and (orientation: landscape) {
   .main{
   box-sizing: content-box;
   display: block;
@@ -1278,11 +1278,11 @@ picture{
   box-sizing: border-box;
   display: flex;
   align-items: flex-end;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 22px;
-  padding-right: 22px;
-  width: 25%;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: calc(25% - 4px);
   min-height: 318px;
 }
 
@@ -1370,13 +1370,14 @@ picture{
 }
 
 .card{
+  box-sizing: border-box;
   position: relative;
   z-index: 3;
   display: flex;
-  padding-top: 36px;
-  padding-bottom: 36px;
-  padding-left: 33px;
-  padding-right: 33px;
+  padding-top: 33px;
+  padding-bottom: 33px;
+  padding-left: 7px;
+  padding-right: 7px;
   border: 3px solid #b59f5b;
   flex-direction: column;
 }
@@ -1387,7 +1388,6 @@ picture{
   margin: 0;
   padding: 0;
   display: flex;
-  flex-wrap: wrap;
   list-style: none;
 }
 
@@ -1402,8 +1402,9 @@ picture{
   font-family: inherit;
   color: #b59f5b;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 12px;
   text-transform: uppercase;
+  display: flex;
 }
 
 
@@ -1412,8 +1413,7 @@ picture{
   text-transform: uppercase;
   margin-top: 5px;
   color: white;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 14px;
   font-family: inherit;
   font-weight: bold;
 }
@@ -1837,7 +1837,7 @@ picture{
 
 
 
-@media (min-width: 641px) and (max-width: 1199px) and (orientation: landscape){
+@media (max-width: 640px) and (orientation: landscape){
   .main{
   box-sizing: content-box;
   display: block;
@@ -1935,6 +1935,8 @@ picture{
 .trend{
   width: calc(50% - 4px);
   min-height: 247px;
+  padding-left: 7px;
+  padding-right: 7px;
 }
 
 .trend3{
@@ -1945,6 +1947,19 @@ picture{
 
 .trend4{
   margin-top: 4px;
+}
+
+.card{
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.trend__item_link{
+  font-size: 12px;
+}
+
+.title__card_link{
+  font-size: 14px;
 }
 
 
