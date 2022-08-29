@@ -23,6 +23,7 @@ a{
 }
 
 .main{
+  overflow: hidden;
   margin: 0;
   box-sizing: border-box;
   display: block;
@@ -2121,7 +2122,7 @@ picture{
 
 
 
-/*
+
 @media  (max-width: 640px){
   .popup{
     width: 328px;
@@ -2300,7 +2301,7 @@ picture{
   font-weight: bold;
   line-height: 40px;
 } 
-*/
+
 
 
 
